@@ -1,0 +1,81 @@
+.background {
+  height: 1500px;
+}
+
+.city {
+  background-image: url("../images/city.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 400px;
+  z-index: -1;
+  opacity: 1; /* adjust opacity as needed */
+}
+
+.square {
+  background-color: #41bbbc;
+  width: 350px;
+  height: 200px;
+  margin-top: 140px;
+  margin-left: 260px;
+}
+
+.ourfirmcontainer {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  margin-right: 20px;
+  margin-left: 30px;
+  top: 30px;
+}
+
+.ourattorneysquare {
+  background-color: #554a58;
+  width: 1100px;
+  height: 80px;
+  margin-top: 430px;
+  margin-left: 250px;
+}
+
+.ourattorneys {
+  position: relative;
+  color: white;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 400px;
+  top: 20px;
+}
+
+.floranteabadimage {
+  position: relative;
+  top: 100px;
+  left: 25px;
+  width: 25%;
+  height: auto;
+}
+
+.floranteabadname {
+  color: #554a58;
+  position: relative;
+  top: 140px;
+  left: 25px;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+}
+
+.floranteabaddescription {
+  position: relative;
+  top: 160px;
+  left: 25px;
+  color: #5f5f5f;
+}
+
+.floranteabads4 {
+  margin-top: 20px;
+}

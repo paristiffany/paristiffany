@@ -1,0 +1,41 @@
+.background {
+  height: 1500px;
+}
+
+.city {
+  background-image: url("../images/city.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 400px;
+  z-index: -1;
+  opacity: 1; /* adjust opacity as needed */
+}
+
+.square {
+  background-color: #41bbbc;
+  width: 370px;
+  height: 200px;
+  margin-top: 140px;
+  margin-left: 260px;
+}
+
+.publications {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  top: 30px;
+  left: 20px;
+}
+
+.governmentcontainer {
+  color: white;
+  margin-top: 50px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 300;
+}

@@ -1,0 +1,44 @@
+.background {
+  background: transparent;
+  height: 900px;
+}
+
+.city {
+  background-image: url("../images/city.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 1; /* adjust opacity as needed */
+}
+
+.square {
+  background-color: #554a58;
+  width: 370px;
+  height: 350px;
+  margin-left: 260px;
+}
+
+.practiceareas {
+  color: white;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.smallerareas {
+  color: white;
+  font-size: 17px;
+  margin-left: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bookonline {
+  position: relative;
+  top: 130px;
+  margin-left: 220px;
+  color: #41bbbc;
+  text-decoration: none;
+}
